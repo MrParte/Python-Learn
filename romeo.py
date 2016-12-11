@@ -4,9 +4,11 @@ lst = list()
 
 for line in fh:
     line = line.rstrip()
-    line = line.split()
-    for word in line:
-        if not in lst:
-            lst.append()
-    print (line)
+    words = line.split()
+    for word in words:
+    if word in lst == False:
+        lst.append(word)
+        print (word)
+    lst.append(words)
+print (lst)
 
